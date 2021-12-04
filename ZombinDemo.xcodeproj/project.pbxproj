@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25406CDB2759C06D0012054C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406CDA2759C06D0012054C /* AppDelegate.m */; };
+		25406CDE2759C06D0012054C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406CDD2759C06D0012054C /* SceneDelegate.m */; };
+		25406CE12759C06D0012054C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406CE02759C06D0012054C /* ViewController.m */; };
+		25406CE42759C06D0012054C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25406CE22759C06D0012054C /* Main.storyboard */; };
+		25406CE62759C0720012054C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25406CE52759C0720012054C /* Assets.xcassets */; };
+		25406CE92759C0720012054C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25406CE72759C0720012054C /* LaunchScreen.storyboard */; };
+		25406CEC2759C0720012054C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406CEB2759C0720012054C /* main.m */; };
+		25406CF42759C0BB0012054C /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406CF32759C0BB0012054C /* MyObject.m */; };
+		25406E4E275A234A0012054C /* NSObject+YHZombiesNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406E4D275A234A0012054C /* NSObject+YHZombiesNSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25406E51275A26C30012054C /* _YHZombie_.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406E50275A26C30012054C /* _YHZombie_.m */; };
+		25406E55275AF6120012054C /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 25406E53275AF6120012054C /* fishhook.c */; };
+		25406E58275AF7540012054C /* YHMallcScrbble.m in Sources */ = {isa = PBXBuildFile; fileRef = 25406E57275AF7540012054C /* YHMallcScrbble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25406CD62759C06D0012054C /* ZombinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25406CD92759C06D0012054C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25406CDA2759C06D0012054C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25406CDC2759C06D0012054C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		25406CDD2759C06D0012054C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		25406CDF2759C06D0012054C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25406CE02759C06D0012054C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25406CE32759C06D0012054C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25406CE52759C0720012054C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25406CE82759C0720012054C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25406CEA2759C0720012054C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25406CEB2759C0720012054C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25406CF22759C0BB0012054C /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		25406CF32759C0BB0012054C /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		25406E4C275A234A0012054C /* NSObject+YHZombiesNSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YHZombiesNSObject.h"; sourceTree = "<group>"; };
+		25406E4D275A234A0012054C /* NSObject+YHZombiesNSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YHZombiesNSObject.m"; sourceTree = "<group>"; };
+		25406E4F275A26C30012054C /* _YHZombie_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _YHZombie_.h; sourceTree = "<group>"; };
+		25406E50275A26C30012054C /* _YHZombie_.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _YHZombie_.m; sourceTree = "<group>"; };
+		25406E53275AF6120012054C /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		25406E54275AF6120012054C /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		25406E56275AF7540012054C /* YHMallcScrbble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMallcScrbble.h; sourceTree = "<group>"; };
+		25406E57275AF7540012054C /* YHMallcScrbble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMallcScrbble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25406CD32759C06D0012054C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25406CCD2759C06D0012054C = {
+			isa = PBXGroup;
+			children = (
+				25406CD82759C06D0012054C /* ZombinDemo */,
+				25406CD72759C06D0012054C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25406CD72759C06D0012054C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25406CD62759C06D0012054C /* ZombinDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25406CD82759C06D0012054C /* ZombinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				25406E52275AF5CF0012054C /* YHMallocScrbble */,
+				25406E48275A21710012054C /* YHZombiesObject */,
+				25406CD92759C06D0012054C /* AppDelegate.h */,
+				25406CDA2759C06D0012054C /* AppDelegate.m */,
+				25406CDC2759C06D0012054C /* SceneDelegate.h */,
+				25406CDD2759C06D0012054C /* SceneDelegate.m */,
+				25406CDF2759C06D0012054C /* ViewController.h */,
+				25406CE02759C06D0012054C /* ViewController.m */,
+				25406CF22759C0BB0012054C /* MyObject.h */,
+				25406CF32759C0BB0012054C /* MyObject.m */,
+				25406CE22759C06D0012054C /* Main.storyboard */,
+				25406CE52759C0720012054C /* Assets.xcassets */,
+				25406CE72759C0720012054C /* LaunchScreen.storyboard */,
+				25406CEA2759C0720012054C /* Info.plist */,
+				25406CEB2759C0720012054C /* main.m */,
+			);
+			path = ZombinDemo;
+			sourceTree = "<group>";
+		};
+		25406E48275A21710012054C /* YHZombiesObject */ = {
+			isa = PBXGroup;
+			children = (
+				25406E4C275A234A0012054C /* NSObject+YHZombiesNSObject.h */,
+				25406E4D275A234A0012054C /* NSObject+YHZombiesNSObject.m */,
+				25406E4F275A26C30012054C /* _YHZombie_.h */,
+				25406E50275A26C30012054C /* _YHZombie_.m */,
+			);
+			path = YHZombiesObject;
+			sourceTree = "<group>";
+		};
+		25406E52275AF5CF0012054C /* YHMallocScrbble */ = {
+			isa = PBXGroup;
+			children = (
+				25406E53275AF6120012054C /* fishhook.c */,
+				25406E54275AF6120012054C /* fishhook.h */,
+				25406E56275AF7540012054C /* YHMallcScrbble.h */,
+				25406E57275AF7540012054C /* YHMallcScrbble.m */,
+			);
+			path = YHMallocScrbble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25406CD52759C06D0012054C /* ZombinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25406CEF2759C0720012054C /* Build configuration list for PBXNativeTarget "ZombinDemo" */;
+			buildPhases = (
+				25406CD22759C06D0012054C /* Sources */,
+				25406CD32759C06D0012054C /* Frameworks */,
+				25406CD42759C06D0012054C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombinDemo;
+			productName = ZombinDemo;
+			productReference = 25406CD62759C06D0012054C /* ZombinDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25406CCE2759C06D0012054C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					25406CD52759C06D0012054C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 25406CD12759C06D0012054C /* Build configuration list for PBXProject "ZombinDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25406CCD2759C06D0012054C;
+			productRefGroup = 25406CD72759C06D0012054C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25406CD52759C06D0012054C /* ZombinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25406CD42759C06D0012054C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25406CE92759C0720012054C /* LaunchScreen.storyboard in Resources */,
+				25406CE62759C0720012054C /* Assets.xcassets in Resources */,
+				25406CE42759C06D0012054C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25406CD22759C06D0012054C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25406CE12759C06D0012054C /* ViewController.m in Sources */,
+				25406E58275AF7540012054C /* YHMallcScrbble.m in Sources */,
+				25406E4E275A234A0012054C /* NSObject+YHZombiesNSObject.m in Sources */,
+				25406E51275A26C30012054C /* _YHZombie_.m in Sources */,
+				25406CDB2759C06D0012054C /* AppDelegate.m in Sources */,
+				25406CEC2759C0720012054C /* main.m in Sources */,
+				25406CDE2759C06D0012054C /* SceneDelegate.m in Sources */,
+				25406E55275AF6120012054C /* fishhook.c in Sources */,
+				25406CF42759C0BB0012054C /* MyObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25406CE22759C06D0012054C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25406CE32759C06D0012054C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25406CE72759C0720012054C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25406CE82759C0720012054C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25406CED2759C0720012054C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25406CEE2759C0720012054C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25406CF02759C0720012054C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZombinDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huishao.ZombinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25406CF12759C0720012054C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZombinDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huishao.ZombinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25406CD12759C06D0012054C /* Build configuration list for PBXProject "ZombinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25406CED2759C0720012054C /* Debug */,
+				25406CEE2759C0720012054C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25406CEF2759C0720012054C /* Build configuration list for PBXNativeTarget "ZombinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25406CF02759C0720012054C /* Debug */,
+				25406CF12759C0720012054C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25406CCE2759C06D0012054C /* Project object */;
+}
